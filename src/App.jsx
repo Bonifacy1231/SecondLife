@@ -1,8 +1,13 @@
 import React from "react";
-import Home from "./Pages/Home/Home";
+import Home from "./Pages/Home/Home.jsx";
+import "./main.scss";
 
 const App = () => {
-	return <Home />;
+	return (
+		<div className='container'>
+			<Home />
+		</div>
+	);
 };
 
 export default App;
