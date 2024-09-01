@@ -1,24 +1,33 @@
 import React from "react";
-import { Link } from "react-scroll";
 
 const Navigation = () => {
 	return (
 		<div className='Navigation'>
-			<ul>
-				<li>
-					<Link>Start</Link>
+			<ul className='Navigation__menu'>
+				<li className='Navigation__item'>
+					<a className='Navigation__link' href=''>
+						Start
+					</a>
 				</li>
-				<li>
-					<Link>O co Chodzi?</Link>
+				<li className='Navigation__item'>
+					<a className='Navigation__link' href=''>
+						O co Chodzi?
+					</a>
 				</li>
-				<li>
-					<Link>O nas</Link>
+				<li className='Navigation__item'>
+					<a className='Navigation__link' href=''>
+						O nas
+					</a>
 				</li>
-				<li>
-					<Link>Fundacja i organizacja</Link>
+				<li className='Navigation__item'>
+					<a className='Navigation__link' href=''>
+						Fundacja i organizacja
+					</a>
 				</li>
-				<li>
-					<Link>Kontakt</Link>
+				<li className='Navigation__item'>
+					<a className='Navigation__link' href=''>
+						Kontakt
+					</a>
 				</li>
 			</ul>
 		</div>
