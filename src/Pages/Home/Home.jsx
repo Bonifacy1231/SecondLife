@@ -5,8 +5,29 @@ import React from "react";
 
 const Home = () => {
 	return (
-		<div>
-			<Header />
+		<div className='Home'>
+			<div className='Home__left__side'>
+				<div className='img' />
+			</div>
+			<div className='Home__right__side'>
+				<Header />
+				<div className='Home__box__text'>
+					<h1>
+						Zacznij pomagać!
+						<br />
+						Oddaj niechciane rzeczy w zaufane ręce
+					</h1>
+					<img
+						className='decoration'
+						src='src\assets\icons\Decoration.svg'
+						alt=''
+					/>
+					<div>
+						<button>ODDAJ RZECZY</button>
+						<button>ODDAJ RZECZY</button>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };
