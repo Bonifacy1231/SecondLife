@@ -12,7 +12,7 @@ const Home = () => {
 			<div className='Home__right__side'>
 				<Header />
 				<div className='Home__box__text'>
-					<h1>
+					<h1 className="Home__box__">
 						Zacznij pomagać!
 						<br />
 						Oddaj niechciane rzeczy w zaufane ręce
@@ -22,7 +22,7 @@ const Home = () => {
 						src='src\assets\icons\Decoration.svg'
 						alt=''
 					/>
-					<div>
+					<div className="">
 						<button>ODDAJ RZECZY</button>
 						<button>ODDAJ RZECZY</button>
 					</div>
