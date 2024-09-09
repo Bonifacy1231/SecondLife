@@ -1,8 +1,14 @@
 @use "../../scss/settings/index" as *;
 
-
-
 .Navigation__menu {
-	display: flex;
-	gap: 2rem;
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  top: 45px;
+  right: 0;
+  gap: 2rem;
+  .Navigation__link {
+    font-size: 1.8rem;
+    color: black;
+  }
 }
