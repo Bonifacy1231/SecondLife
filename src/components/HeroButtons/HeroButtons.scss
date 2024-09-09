@@ -1,0 +1,15 @@
+@use "../../scss/settings/index" as *;
+
+.Hero__buttons {
+  display: flex;
+  gap: 4.5rem;
+  button {
+    height: 120px;
+    width: 310px;
+    font-size: 3.6rem;
+    border: 0.75px solid $ColorsText;
+    background-color: transparent;
+    font-family: $fontOpenSans;
+    font-weight: lighter;
+  }
+}
