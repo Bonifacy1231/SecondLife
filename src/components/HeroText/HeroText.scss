@@ -1,5 +1,7 @@
 .Hero__text {
+  height: 75%;
   align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   &__title {
@@ -12,6 +14,6 @@
   &__decoration {
     width: 25.5rem;
     height: 3.5rem;
-    margin-bottom: 6.5rem;
+    margin-bottom: 5.5rem;
   }
 }
