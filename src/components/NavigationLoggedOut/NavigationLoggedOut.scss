@@ -1,0 +1,22 @@
+@use "../../scss/settings/index" as *;
+
+.LoggedOut {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 0.5rem;
+  &__btn {
+    font-size: 1.4rem;
+    padding: 10px;
+    background-color: transparent;
+    border: 0.75px solid transparent;
+    color: $colorGrey;
+    &:hover {
+      border: 0.75px solid $colorLightGold;
+      cursor: pointer;
+    }
+  }
+}
+
+
