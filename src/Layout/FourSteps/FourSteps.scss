@@ -1,0 +1,30 @@
+@use "../../scss/settings/index" as *;
+
+.FourSteps {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    font-size: 3.8rem;
+    font-weight: normal;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  &__decoration {
+    @include decoration;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__button {
+    @include button;
+    margin: 4.5rem 0;
+  }
+}

@@ -6,6 +6,7 @@ import ThreeColumnsSections from "./components/ThreeColumnsSections/ThreeColumns
 
 import "./main.scss";
 import "./scss/_mainContainer.scss";
+import FourSteps from "./Layout/FourSteps/FourSteps.jsx";
 
 const App = () => {
   return (
@@ -14,8 +15,9 @@ const App = () => {
         <Route
           element={
             <main className="app__wraper">
-              <Hero />
+              <Hero /> {/* Naprawić Hero !!! */}
               <ThreeColumnsSections />
+              <FourSteps />
             </main>
           }
           path=""
