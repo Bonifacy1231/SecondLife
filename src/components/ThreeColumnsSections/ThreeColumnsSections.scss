@@ -1,0 +1,32 @@
+@use "../../scss/settings/index" as *;
+
+.statistics {
+  background-image: url(../../assets/images/3-Columns-Background.png);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &__single {
+    margin: 100px 0;
+    text-align: center;
+    width: 33.5rem;
+    &__counter {
+      font-size: 9rem;
+      color: $colorDustyGold;
+      font-weight: 100;
+    }
+    &__title {
+      font-size: 1.8rem;
+      color: $ColorsText;
+      font-weight: normal;
+      margin-bottom: 2.5rem;
+    }
+    &__text {
+      font-size: 1.6rem;
+      font-family: $fontMerriweather;
+      color: $ColorsText;
+      font-weight: 100;
+      letter-spacing: -0.32px;
+      text-align: center;
+    }
+  }
+}

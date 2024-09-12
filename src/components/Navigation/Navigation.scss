@@ -1,2 +1,17 @@
 @use "../../scss/settings/index" as *;
 
+.Navigation {
+  height: 25%;
+  display: block;
+  margin: 25px;
+}
+
+.Navigation__menu {
+  display: flex;
+  justify-content: right;
+  gap: 5.5rem;
+  .Navigation__link {
+    font-size: 1.8rem;
+    color: $ColorsText;
+  }
+}

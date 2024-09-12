@@ -1,0 +1,16 @@
+@use "../../scss/settings/index" as *;
+.Hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 150px;
+  gap: 6rem;
+  .box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
