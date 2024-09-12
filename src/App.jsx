@@ -1,7 +1,11 @@
 import React from "react";
-import "./main.scss";
 import { HashRouter, Route, Routes } from "react-router-dom";
+
 import Hero from "./Layout/Hero/Hero.jsx";
+import ThreeColumnsSections from "./components/ThreeColumnsSections/ThreeColumnsSections.jsx";
+
+import "./main.scss";
+import "./scss/_mainContainer.scss";
 
 const App = () => {
   return (
@@ -11,6 +15,7 @@ const App = () => {
           element={
             <main className="app__wraper">
               <Hero />
+              <ThreeColumnsSections />
             </main>
           }
           path=""
