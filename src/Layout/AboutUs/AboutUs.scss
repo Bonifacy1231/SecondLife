@@ -1,0 +1,6 @@
+@use "../../scss/settings/index" as *;
+.AboutUs__container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  background-color: $colorSnowWhite;
+}
