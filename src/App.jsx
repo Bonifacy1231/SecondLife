@@ -7,6 +7,8 @@ import ThreeColumnsSections from "./components/ThreeColumnsSections/ThreeColumns
 import "./main.scss";
 import "./scss/_mainContainer.scss";
 import FourSteps from "./Layout/FourSteps/FourSteps.jsx";
+import AboutUs from "./Layout/AboutUs/AboutUs.jsx";
+import WhoWeHelp from "./Layout/WhoWeHelp/WhoWeHelp.jsx";
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
               <Hero /> {/* Naprawić Hero !!! */}
               <ThreeColumnsSections />
               <FourSteps />
+              <AboutUs />
+              <WhoWeHelp />
             </main>
           }
           path=""
