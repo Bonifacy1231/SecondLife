@@ -9,6 +9,7 @@ import "./scss/_mainContainer.scss";
 import FourSteps from "./Layout/FourSteps/FourSteps.jsx";
 import AboutUs from "./Layout/AboutUs/AboutUs.jsx";
 import WhoWeHelp from "./Layout/WhoWeHelp/WhoWeHelp.jsx";
+import ContactUs from "./Layout/ContactUs/ContactUs.jsx";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
               <FourSteps />
               <AboutUs />
               <WhoWeHelp />
+              <ContactUs />
             </main>
           }
           path=""
