@@ -26,5 +26,8 @@
   &__button {
     @include button;
     margin: 4.5rem 0;
+    height: 120px;
+    width: 310px;
+    font-size: 3.6rem;
   }
 }
