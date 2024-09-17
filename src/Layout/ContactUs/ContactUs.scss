@@ -1,0 +1,68 @@
+@use "../../scss/settings/index" as *;
+
+.ContactUs {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-image: url("../../assets/images/Background-Contact-Form.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15rem;
+    &__title {
+      font-size: 3.8rem;
+      font-weight: normal;
+      letter-spacing: -0.76px;
+      color: $ColorsText;
+      margin-bottom: 2.5rem;
+    }
+    &__decoration {
+      @include decoration;
+      margin-bottom: 8rem;
+    }
+    .form__box__single {
+      display: flex;
+      flex-direction: column;
+      color: $ColorsText;
+      label {
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-bottom: 1.2rem;
+      }
+      input {
+        font-size: 1.8rem;
+        border: transparent;
+        border-bottom: 1px solid black;
+        background-color: transparent;
+      }
+
+      textarea {
+        max-height: 25px;
+        font-size: 1.8rem;
+        resize: none;
+        border: transparent;
+        border-bottom: 1px solid black;
+        background-color: transparent;
+        outline: none;
+        
+      }
+    }
+    &__box {
+      width: 600px;
+      display: grid;
+      gap: 20px;
+
+      grid-template-columns: repeat(2, 1fr);
+      &__message {
+        grid-column: span 2;
+      }
+    }
+  }
+}
