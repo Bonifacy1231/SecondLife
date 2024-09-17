@@ -26,9 +26,6 @@
 }
 
 @mixin button {
-  height: 120px;
-  width: 310px;
-  font-size: 3.6rem;
   border: 0.75px solid $ColorsText;
   background-color: transparent;
   font-family: $fontOpenSans;
