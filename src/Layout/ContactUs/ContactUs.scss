@@ -22,7 +22,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.2; 
+    opacity: 0.2;
     z-index: 1;
   }
   &__form {
@@ -58,6 +58,7 @@
         border: transparent;
         border-bottom: 1px solid black;
         background-color: transparent;
+        outline: none;
       }
 
       textarea {
@@ -71,14 +72,30 @@
       }
     }
     &__box {
-      width: 600px;
+      width: 100%;
       display: grid;
       gap: 20px;
-
       grid-template-columns: repeat(2, 1fr);
       &__message {
         grid-column: span 2;
       }
+    }
+    &__button {
+      @include button;
+      margin-top: 4.5rem;
+      padding: 10px 50px;
+      place-self: end;
+    }
+  }
+  &__icons {
+    position: absolute;
+    place-self: end;
+    justify-self: end;
+    margin-right: 15rem;
+    margin-bottom: 2rem;
+
+    img:first-child {
+      margin-right: 1rem;
     }
   }
 }
