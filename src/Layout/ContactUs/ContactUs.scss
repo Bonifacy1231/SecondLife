@@ -37,7 +37,7 @@
       font-size: 3.8rem;
       font-weight: normal;
       letter-spacing: -0.76px;
-      color: $ColorsText;
+      color: $colorText;
       margin-bottom: 2.5rem;
     }
     &__decoration {
@@ -47,7 +47,7 @@
     .form__box__single {
       display: flex;
       flex-direction: column;
-      color: $ColorsText;
+      color: $colorText;
       label {
         font-size: 1.6rem;
         font-weight: bold;
