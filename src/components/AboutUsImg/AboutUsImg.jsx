@@ -3,7 +3,7 @@ import "./AboutUsImg.scss";
 
 const AboutUsImg = () => {
   return <div className="AboutUsImg__img">
-    <div className="img">cos</div>
+    <div className="img"></div>
   </div>;
 };
 
