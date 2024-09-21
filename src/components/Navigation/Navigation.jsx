@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navigation.scss";
-import NavigationLoggedOut from "../NavigationLoggedOut/NavigationLoggedOut";
+import NavigationLoggedOut from "../NotLoggedOn/NotLoggedOn";
 const Navigation = () => {
   return (
     <div className="Navigation">
