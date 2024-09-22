@@ -1,37 +1,77 @@
-@use "src/scss/settings/_index.scss" as *;
+@use "../../scss/settings/index" as *;
 
 .login {
-  height: 100vh;
-  &__container {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    .login__box {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      &__title {
-        font-size: 4rem;
-        font-weight: normal;
-        letter-spacing: -0.8px;
-        color: $colorText;
-        margin-bottom: 3.2rem;
-      }
-      &__decoration {
-        @include decoration;
-      }
-      .login__form {
-        min-width: 395px;
-        min-height: 235px;
-        background-color: royalblue;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-    }
-  }
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+
+	.login__container {
+		flex-grow: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.login__box {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 75px;
+			&__title {
+				font-size: 4rem;
+				font-weight: normal;
+				margin-bottom: 2.2rem;
+			}
+			&__decoration {
+				margin-bottom: 6rem;
+			}
+		}
+
+		.login__form {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			min-width: 500px;
+			&__fields {
+				width: 395px;
+				height: 235px;
+				background-color: $colorSnowWhite;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				gap: 25px;
+			}
+			&__field {
+				width: 250px;
+				display: flex;
+				flex-direction: column;
+				label {
+					font-size: 1.6rem;
+				}
+				input {
+					padding: 1rem;
+					border: transparent;
+					border-bottom: 0.75px solid black;
+					background-color: $colorSnowWhite;
+				}
+			}
+
+			&__actions {
+				position: relative;
+				display: flex;
+				justify-content: space-between;
+				width: 100%;
+				margin-top: 2rem;
+				button {
+					font-size: 1.8rem;
+					padding: 1.5rem;
+					color: $colorText;
+					background: transparent;
+					border: 0.75px solid $colorText;
+				}
+			}
+		}
+	}
 }
